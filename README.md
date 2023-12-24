@@ -12,55 +12,36 @@
 
 ---
 
-**ComSpec：**
-%SystemRoot%\system32\cmd.exe
+## System Variables：
 
-DriverData：
-C:\Windows\System32\Drivers\DriverData
+**ComSpec：** `%SystemRoot%\system32\cmd.exe`
 
-NUMBER_OF_PROCESSORS：
-32
+**DriverData：** `C:\Windows\System32\Drivers\DriverData`
 
-OS：
-Windows_NT
+**NUMBER_OF_PROCESSORS：** `32`
 
-path：
-%SystemRoot%\system32
-%SystemRoot%
-%SystemRoot%\System32\Wbem
-%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\
-%SYSTEMROOT%\System32\OpenSSH\
+**OS：** `Windows_NT`
 
-PATHEXT：
-.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+**path：** `%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\`
 
-PROCESSOR_ARCHITECTURE：
-AMD64
+**PATHEXT：** `.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC`
 
-PROCESSOR_IDENTIFIER：
-Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+**PROCESSOR_ARCHITECTURE：** `AMD64`
 
-PROCESSOR_LEVEL：
-6
+**PROCESSOR_IDENTIFIER：** `Intel64 Family 6 Model 78 Stepping 3, GenuineIntel`
 
-PROCESSOR_REVISION：
-4e03
+**PROCESSOR_LEVEL：** `?`
 
-PSModulePath：
-%ProgramFiles%\WindowsPowerShell\Modules
-%SystemRoot%\system32\WindowsPowerShell\v1.0\Modules
+**PROCESSOR_REVISION：** `????`
 
-TEMP：
-%SystemRoot%\TEMP
+**PSModulePath：** `%ProgramFiles%\WindowsPowerShell\Modules;%SystemRoot%\system32\WindowsPowerShell\v1.0\Modules`
 
-TMP：
-%SystemRoot%\TEMP
+TEMP：** `%SystemRoot%\TEMP`
 
-USERNAME：
-SYSTEM
+TMP：** `%SystemRoot%\TEMP`
 
-windir：
-%SystemRoot%
+USERNAME：** `SYSTEM`
 
-ZES_ENABLE_SYSMAN：
-1
+windir：** `%SystemRoot%`
+
+ZES_ENABLE_SYSMAN：** `?`
